@@ -1,0 +1,24 @@
+{
+  "name": "rem42/faker-collection",
+  "description": "A collection of custom providers for the Faker library",
+  "keywords": ["faker", "fixtures", "data"],
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Rémy BRUYERE",
+      "email": "me@remy.ovh",
+      "homepage": "https://remy.ovh"
+    }
+  ],
+  "autoload": {
+    "psr-4": { "Rem42\\Faker\\": "src/Faker" }
+  },
+  "require": {
+    "php": "^7.0",
+    "fzaninotto/faker": "^1.6"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^6.2"
+  }
+}
