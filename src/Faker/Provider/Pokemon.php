@@ -4,7 +4,7 @@ namespace Rem42\Faker\Provider;
 
 use Faker\Provider\Base;
 
-abstract class Pokemon extends Base
+class Pokemon extends Base
 {
 	protected static $name = [
 		'Bulbizarre'

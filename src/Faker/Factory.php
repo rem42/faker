@@ -10,7 +10,7 @@ class Factory extends BaseFactory
 		'Address', 'Barcode', 'Biased', 'Color', 'Company', 'DateTime', 'File', 'HtmlLorem', 'Image', 'Internet', 'Lorem', 'Miscellaneous', 'Payment', 'Person', 'PhoneNumber', 'Text', 'UserAgent', 'Uuid'
 	);
 	protected static $newProviders = array(
-		'Pokemon'
+		'Pokemon', 'HarryPotter', 'BackToTheFuture'
 	);
     /**
      * Create a new generator
